@@ -16,3 +16,6 @@ Your function should return:
 
 4938532894754 -> 49 38 53 28 9 47 54
 1234567 -> 1 2 3 4 5 6 7
+
+### Note:
+You would need Node.

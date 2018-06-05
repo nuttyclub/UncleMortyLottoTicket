@@ -8,6 +8,7 @@ import './App.css';
 const checkWinningTicket = (numbers) => {
     let winningTickets = {};
 
+    //loop through each number and process it.
     numbers.forEach((number) => {
         try {
             winningTickets[number] = processNumber(number);
@@ -25,8 +26,8 @@ const checkWinningTicket = (numbers) => {
 const processNumber = (number) => {
 
     const minimumLength = 7;
+    //if the string is less than the minimum length, throw an error
     if (number.length < minimumLength) {
-
         throw new Error('string must be atleast 7 digits');
     }
 
